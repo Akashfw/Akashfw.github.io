@@ -1,1 +1,1 @@
-# [Akashfw.github.io](https://akashfw.github.io/)
+# [Akashfw.github.io](https://Akashfw.github.io/)
