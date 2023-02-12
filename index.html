@@ -4,9 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Akash Shukla</title>
 </head>
 <body>
-    <h1>hello Akash</h1>
+    <nav id="nav-menu">
+        <div  id="name"><h1 style="color:rgb(29, 10, 136); font-size: 60px;">A</h1><h1>kash</h1></div>
+        <div class="nav-link home"><a href="#home"><p>Home</p></a> </div>
+        <div class="nav-link about" class="about section"><a href="#about"><p>about</p></a> </div>
+        <div  class="nav-link skills"><a href="#skills"><p>Skills</p></a> </div>
+        <div  class="nav-link projects"> <a href="#projects"><p>Projects</p></a> </div>
+        <div class="nav-link contact"> <a href="#home"><p>Contact</p></a> </div>
+        <div class="nav-link resume"><a href="./resume/Abhishek-Resume.pdf" download="Abhishek-Resume" class="nav-link resume" id="resume-button-1">
+            <i class="ri-download-2-line"></i><p>Resume</p> 
+          </a></div>
+    </nav>
+
+<!-- ----------home----------- -->
+<section id="home">
+    <div id="name_detail">     
+        <div id="all-detail">
+            <div id="user-detail-name">
+             <img src="img/sticker.jpeg" alt="">
+             <h3>I'm <br><h1> Akash Shukla</h1></h3>
+            </div>
+            <br>
+            <div id="user-detail-intro">
+             <h3>A Full Stack Web Developer.
+                </h3>
+            </div>
+        </div>
+        <div id="img">
+            <img class="home-img" src="img/my-img.jpeg" alt="">
+            <a id="resume-button-2" href='./resume/Abhishek-Resume.pdf' download="Abhishek-Resume">Resume2</a>
+           
+        </div>
+    </div>
+</section>
+    <!-------------------- ABOUT ---------------------->
+  <section id="about" class="about section">
+    <title>About</title>
+    <h1 id="user-detail-name">AKash</h1>
+    <h2 id="user-detail-intro">
+      I am a Developer who know HTML, CSS, JAVASCRIPT, NODEJS, EXPRESS.JS,
+      MONGODB, POSTMAN
+    </h2>
+  </section>
+  <!-------------------- SKILLS ---------------------->
+  <section id="skills">
+    <div class="skills-card">
+      <img class="skills-card-img" src="https://png.pngitem.com/pimgs/s/168-1680234_nodejs-logo-svg-hd-png-download.png" alt="nodejs.png" />
+      <h5 class="skills-card-name">Node JS</h5>
+    </div>
+    <div class="skills-card">
+      <img class="skills-card-img" src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png" alt="express.png" />
+      <h5 class="skills-card-name">Express JS</h5>
+    </div>
+    <div class="skills-card">
+      <img class="skills-card-img" src="https://thumbs.bfldr.com/as/9qktttk4thjb7345xr6fk5rh?expiry=1676808822&fit=bounds&height=162&sig=YjRlODliOGYwYTU4ZmRiMWRmYzJkNjdlNTMzYWNlZDNlZjFiNzExNA%3D%3D&width=262" alt="mongodb.png" />
+      <h5 class="skills-card-name">Mongo DB</h5>
+    </div>
+  </section>
+  <!-------------------- PROJECTS ---------------------->
+  <section id="projects">
+    <!-- 1 -->
+    <div class="project-card">
+      <img src="img/project-1.png" alt="">
+      <title class="project-title">Amazon</title>
+      <p class="project-description">Description</p>
+      <p class="project-tech-stack">Tech Stack</p>
+      <a class="project-github-link" href="https://github.com/Akashfw/spotty-middle-5296">GitHub</a>
+      <a class="project-deployed-link" href="https://profound-taiyaki-2700f0.netlify.app/">Netlify</a>
+    </div>
+    <!-- 2 -->
+    <div class="project-card">
+      <img src="img/project-2.png">
+      <title class="project-title">MyTv</title>
+      <p class="project-description">Description</p>
+      <p class="project-tech-stack">Tech Stack</p>
+      <a class="project-github-link" href="https://github.com/abhishek1494k/brainy-sidewalk-2900">GitHub</a>
+      <a class="project-deployed-link" href="https://mytv-com.netlify.app/">Netlify</a>
+    </div>
+    <!-- 3 -->
+    <div class="project-card">
+      <img src="img/project-3.png" alt="">
+      <title class="project-title">Dream's-Trip</title>
+      <p class="project-description">Description</p>
+      <p class="project-tech-stack">Tech Stack</p>
+      <a class="project-github-link" href="https://github.com/Akashfw/glistening-rock-2573">GitHub</a>
+      <a class="project-deployed-link" href="https://aquamarine-cannoli-d8e129.netlify.app/">Netlify</a>
+    </div>
+    <!-- 4 -->
+    <!-- <div class="project-card">
+      <img src="./image/timer.png" alt="">
+      <title class="project-title">Timer</title>
+      <p class="project-description">Description</p>
+      <p class="project-tech-stack">Tech Stack</p>
+      <a class="project-github-link" href="https://github.com/abhishek1494k/timer">GitHub</a>
+      <a class="project-deployed-link" href="https://www-timer-com.netlify.app/">Netlify</a>
+    </div> -->
+  </section>
+  <!-------------------- CONTACTS ---------------------->
+  <section id="contact">
+    <h1>Contact</h1>
+    <a id="contact-github" href="https://github.com/Akashfw">GitHub</a>
+    <a id="contact-linkedin" href="https://www.linkedin.com/in/shuklaakash786/">LinkedIn</a>
+    <a id="contact-phone" href="#">Mobile</a>
+    <a id="contact-email" href="shuklaakash30278@gmail.com">Email</a>
+  </section>
+  <!-------------------- RESUME ---------------------->
+  <section id="resume">
+    <a id="resume-link-1" href='resume/Akash_Shukla_Resume.pdf' download="Abhishek-Resume">Resume2</a>
+    <!-- <button id="resume-button-1"></button> -->
+  </section>
+  <!-------------------- GitHUB ---------------------->
+  <section class="react-activity-calendar">
+    <h1>GitHub React-Activity-Calendar</h1>
+    <img id="github-streak-stats"
+      src="https://github-readme-streak-stats.herokuapp.com/demo/preview.php?user=Akashfw&theme=dark" />
+    <img id="github-top-langs"
+      src="https://github-readme-stats.vercel.app/api/top-langs/?username=Akashfw&theme=outrun"
+      alt="top_languages" />
+    <img id="github-stats-card"
+      src="https://github-readme-stats.vercel.app/api?username=Akashfw&count_private=true" alt="stat-card" />
+  </section>
+</body>
+
+</html>
+
+<script>
+  document.getElementById('resume-button-1').addEventListener("click", () => {
+    console.log("OPENinig.....")
+    window.open("https://drive.google.com/file/d/1YFI1N75m-aNqTY6Fj4u1bE65iVTL7L2t/view?usp=sharing", "_blank");
+  })
+
+  document.getElementById('resume-link-1').addEventListener("click", () => {
+    console.log("OPENinig.....")
+    window.open("https://drive.google.com/file/d/1YFI1N75m-aNqTY6Fj4u1bE65iVTL7L2t/view?usp=sharing", "_blank");
+  })
+
+  document.getElementById('resume-button-2').addEventListener("click", () => {
+    console.log("OPENinig.....")
+    window.open("https://drive.google.com/file/d/1YFI1N75m-aNqTY6Fj4u1bE65iVTL7L2t/view?usp=sharing", "_blank");
+  })
+</script>
 </body>
 </html>
