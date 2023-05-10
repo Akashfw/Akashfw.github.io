@@ -160,3 +160,8 @@ pro_amazon.addEventListener("mouseover",()=>{
         clearInterval(intv);
     },4000);
 })
+
+
+document.querySelector(".nav-link home").addEventListener("click",()=>{
+    location.reload();
+})
