@@ -75,7 +75,7 @@ var typing=new Typed(".text", {
     strings: ["", "FULL-STACK", "WEB", "DEVELOPER"],
     typeSpeed: 100,
     backSpeed: 40  ,
-    loop: true,
+    // loop: true,
 });
 
 let pro_Qrbot = document.getElementById("pro_qrbot");
