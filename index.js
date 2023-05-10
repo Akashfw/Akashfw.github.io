@@ -71,12 +71,12 @@ document.querySelector("#resume-button-1").addEventListener("click",()=>{
 })
 
 
-// var typing=new Typed(".text", {
-//     strings: ["", "FULL-STACK", "WEB", "DEVELOPER"],
-//     typeSpeed: 100,
-//     backSpeed: 40  ,
-//     // loop: true,
-// });
+var typing=new Typed(".text", {
+    strings: ["", "FULL-STACK", "WEB", "DEVELOPER"],
+    typeSpeed: 100,
+    backSpeed: 40  ,
+    loop: true,
+});
 
 let pro_Qrbot = document.getElementById("pro_qrbot");
 let pro_mytv = document.getElementById("pro_mytv");
