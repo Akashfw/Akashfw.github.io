@@ -162,6 +162,3 @@ pro_amazon.addEventListener("mouseover",()=>{
 })
 
 
-document.querySelector(".nav-link home").addEventListener("click",()=>{
-    location.reload();
-})
