@@ -447,6 +447,7 @@ img.man-icons {
   padding-bottom: 20px ;
   margin-bottom: 30px ;
   border: 1px solid #082729;
+  padding: 5px;
 }
 .project-img img {
   width:100% !important ;
