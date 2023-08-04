@@ -83,13 +83,13 @@ header{
   /* font-family: 'Gajraj One', cursive; */
   /* font-family: 'Tangerine', cursive; */
   font-family: cursive;
-  color: #08646b !important;
+  color: #a7b191 !important;
   font-size: 36px;
 }
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: #08646b;
+  color: #a7b191;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -104,7 +104,7 @@ header{
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: #08646b;
+  background-color: #a7b191;
 }
 
 .section {
@@ -173,7 +173,7 @@ header{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: #08646b;
+  background-color: #a7b191;
 }
 .navbar .logo a {
   color: #fff;
@@ -182,7 +182,7 @@ header{
   font-family: 'Inter', sans-serif;
 }
 .navbar .logo a span {
-  color: #08646b;
+  color: #a7b191;
   transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span {
@@ -206,7 +206,7 @@ header{
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: #08646b;
+  background-color: #a7b191;
 }
 
 /*=== Show menu ===*/
@@ -231,7 +231,7 @@ header{
 }
 
 .home__title-color {
-  color: #08646b;
+  color: #a7b191;
 }
 
 .home__social {
@@ -247,7 +247,7 @@ header{
 }
 
 .home__social-icon:hover {
-  color: #08646b;
+  color: #a7b191;
 }
 
 .home-img {
@@ -256,14 +256,14 @@ header{
   bottom: 0;
   width: 260px;
   border-radius: 50%; 
-  border: 7px solid #08646b;
+  border: 3px solid #a7b191;
 }
 .home-img>img{
   border-radius: 50%; 
 }
 
 .home__blob {
-  fill: #08646b;
+  fill: #a7b191;
 }
 
 .home__blob-img {
@@ -273,7 +273,7 @@ header{
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color:#08646b;
+  background-color:#a7b191;
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -373,12 +373,12 @@ header{
   width: 2rem;
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: #08646b;
+  color: #a7b191;
 }
 img.man-icons {
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: #08646b;
+  color: #a7b191;
 }
 .skills-card {
   display: flex;
@@ -391,7 +391,7 @@ img.man-icons {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color:#08646b;
+  background-color:#a7b191;
   height: 0.25rem;
   border-radius: 0.5rem;
   z-index: var(--z-back);
@@ -444,9 +444,11 @@ img.man-icons {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   /* border-radius: 0.5rem; */
   overflow: hidden;
-  padding-bottom: 20px ;
+  padding-bottom: 10px ;
+  padding: 10px;
+  border-radius: 5px;
   margin-bottom: 30px ;
-  border: 1px solid #082729;
+  border: 1px solid #3c4132;
 }
 .project-img img {
   width:100% !important ;
@@ -496,7 +498,7 @@ img.man-icons {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: #10757d;
+  background-color: #a7b191;
   color: #fff;
   text-align: center;
   font-weight: var(--font-semi);

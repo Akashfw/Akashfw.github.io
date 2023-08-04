@@ -41,17 +41,17 @@ sr.reveal( ".home-social-icon", { interval: 150 } );
 
 /*SCROLL ABOUT*/
 sr.reveal( ".about-img", {} );
-sr.reveal( ".about-subtitle", { delay: 150 } );
-sr.reveal( ".about-text", { delay: 150 } );
+sr.reveal( ".about-subtitle", { delay: 50 } );
+sr.reveal( ".about-text", { delay: 50 } );
 
 // Scross main skills mainskills
-sr.reveal( ".mainskills", { interval: 150 } );
-sr.reveal( ".mskill-img", { delay: 150 } );
-sr.reveal( ".mskill-text", { delay: 150 } );
+sr.reveal( ".mainskills", { interval: 50 } );
+sr.reveal( ".mskill-img", { delay: 50 } );
+sr.reveal( ".mskill-text", { delay: 50 } );
 /*SCROLL SKILLS*/
 sr.reveal( ".skills-subtitle", {} );
 sr.reveal( ".skills-text", {} );
-sr.reveal( ".skills-data", { interval: 150 } );
+sr.reveal( ".skills-data", { interval: 50 } );
 // sr.reveal(".skills-img", { delay: 600 });
 
 /*SCROLL projects*/
@@ -67,7 +67,7 @@ sr.reveal(".contact-input", { interval: 150 });
 
 
 document.querySelector("#resume-button-1").addEventListener("click",()=>{
-    window.open("https://drive.google.com/file/d/1YFI1N75m-aNqTY6Fj4u1bE65iVTL7L2t/view?usp=sharing")
+    window.open("https://drive.google.com/file/d/1w0d8aeiQMiHgPwVJpTZNk2HrROXJP2Qv/view?usp=sharing")
 })
 
 
